@@ -1,8 +1,11 @@
-# React + Vite
+# Question 3 : create your custom react using JS and render anchor tag.
+ 
+Hint:  In react we have a root element, here you have to create a HTML element and using JS render anchor tag.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+1.) Create an object for react element that has html anchor data
 
-Currently, two official plugins are available:
+2.) Create a function that generates html code from reactElement and returns the final html tag
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+3.) Create a function customRender that takes in the object and the path of html where it will be rendered
+
+![Screenshot 2024-01-19 123337](https://github.com/usaketh/custom-react/assets/64151405/7f39082b-db7f-4a3c-beb1-c47a9a08d9d5)
